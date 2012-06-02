@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: https://github.com/crossroads/ffcrm_authlogic_api.git
-  revision: 8599f41419de7e8444b674290f8d4a77552580d6
+  revision: 6ec3fb9f2221a492746cfaaef2af1b0030bd97c3
   specs:
     ffcrm_authlogic_api (0.1.0)
       authlogic
