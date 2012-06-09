@@ -26,8 +26,11 @@ do
   createdb -U postgres "$plugin"_test
   cd $plugin
   if [ "$TEST_ENV" != "origin" ]; then
-    # Grab the revision of fat_free_crm from Gemfile.lock to peg the plugin to
-    ffcrm_version=`grep -A 1 "fatfreecrm/fat_free_crm.git" ../Gemfile.lock | grep "revision"| cut -d ' ' -f4`
+    # Grab the revision of fat_free_crm from Gemfile to peg the plugin to
+    ffcrm_version=`grep "fatfreecrm/fat_free_crm.git" ../Gemfile | cut -d '"' -f2`
+    # Otherwise grab the revision from the Gemfile.lock instead
+    #ffcrm_version=`grep -A 1 "fatfreecrm/fat_free_crm.git" ../Gemfile.lock | grep "revision"| cut -d ' ' -f4`
+    
     # replace fat_free_crm with version we want to run against
     sed -i 's/^gem '\''fat_free_crm'\'',/#/g' Gemfile
     echo "gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git', :ref => '$ffcrm_version'" >> Gemfile
