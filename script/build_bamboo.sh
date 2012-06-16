@@ -48,3 +48,12 @@ do
   dropdb -U postgres "$plugin"_test
   cd ..
 done
+
+# Run brakeman on fat_free_crm to analyse for security holes
+# -----------------------------------------------------
+if ! (gem list | grep "brakeman"); then
+  gem install brakeman --no-rdoc --no-ri
+else
+  gem update brakeman --no-rdoc --no-ri
+fi
+brakeman -o brakeman.html
