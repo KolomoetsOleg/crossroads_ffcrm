@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: https://github.com/crossroads/ffcrm_authlogic_api.git
-  revision: 6ec3fb9f2221a492746cfaaef2af1b0030bd97c3
+  revision: 07255c45616bd55181c8398c096f17c01877d8b7
   specs:
     ffcrm_authlogic_api (0.1.0)
       authlogic
@@ -45,7 +45,7 @@ GIT
 
 GIT
   remote: https://github.com/crossroads/ffcrm_crossroads_formstack.git
-  revision: 188c742016ee6fa753b81db03886c0e81711c893
+  revision: 62c44de5a85f04b785442ee2dec53ad8e8aef80e
   specs:
     ffcrm_crossroads_formstack (1.0.1)
       fat_free_crm
@@ -90,7 +90,7 @@ GIT
 
 GIT
   remote: https://github.com/fatfreecrm/ffcrm_crowd.git
-  revision: 6b5d5cebdacda3a8c8fa9994bc14a87aca3c0f39
+  revision: 58571da70f1570b79ce8fd6d3ee913ff19655be9
   specs:
     ffcrm_crowd (1.0.1)
       fat_free_crm
@@ -112,7 +112,7 @@ GIT
 
 GIT
   remote: https://github.com/fatfreecrm/ffcrm_service_hooks.git
-  revision: 760a9af612745a0131a71450230fd3343d04e81e
+  revision: 6a387d4b1819f53cefe584b77f60965e39feaa36
   specs:
     ffcrm_service_hooks (1.0.1)
       fat_free_crm
