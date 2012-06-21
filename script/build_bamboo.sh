@@ -32,7 +32,7 @@ do
     #ffcrm_version=`grep -A 1 "fatfreecrm/fat_free_crm.git" ../Gemfile.lock | grep "revision"| cut -d ' ' -f4`
     
     # replace fat_free_crm with version we want to run against
-    sed -i 's/^gem '\''fat_free_crm'\'',/#/g' Gemfile
+    sed -i 's/^gem '\''fat_free_crm'\''/#/g' Gemfile
     echo "gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git', :ref => '$ffcrm_version'" >> Gemfile
     echo "Pegging fat_free_crm to $ffcrm_version"
   fi
