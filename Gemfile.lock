@@ -60,15 +60,15 @@ GIT
 
 GIT
   remote: https://github.com/fatfreecrm/fat_free_crm.git
-  revision: aa69a66d02d9f3af0b5fe98e192720c69d8c32e2
-  ref: aa69a66d02d9f3af0b5fe98e192720c69d8c32e2
+  revision: e4eb68111c0923f6884d85c3b83233f05340db1f
+  ref: e4eb68111c0923f6884d85c3b83233f05340db1f
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.2.1)
       acts_as_commentable (~> 3.0.1)
       acts_as_list (~> 0.1.4)
       ajax-chosen-rails (>= 0.2.0)
-      authlogic (~> 3.1.0)
+      authlogic (= 3.1.0)
       cancan
       dynamic_form
       email_reply_parser_ffcrm
@@ -241,7 +241,7 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.18)
+    mime-types (1.19)
     multi_json (1.2.0)
     multi_xml (0.4.2)
     nestful (0.0.8)
@@ -254,7 +254,7 @@ GEM
     net-ssh-gateway (1.1.0)
       net-ssh (>= 1.99.1)
     newrelic_rpm (3.3.0)
-    nokogiri (1.5.2)
+    nokogiri (1.5.4)
     paper_trail (2.6.3)
       activerecord (~> 3.0)
       railties (~> 3.0)
