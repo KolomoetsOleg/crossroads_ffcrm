@@ -60,8 +60,8 @@ GIT
 
 GIT
   remote: https://github.com/fatfreecrm/fat_free_crm.git
-  revision: 4881214de298363b5f2446cff8352000ed75c868
-  ref: 4881214de298363b5f2446cff8352000ed75c868
+  revision: a6d5fe31c7a646ce78528c4d599bc486cb5f5cfa
+  ref: a6d5fe31c7a646ce78528c4d599bc486cb5f5cfa
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.2.1)
@@ -163,7 +163,7 @@ GEM
       rails (~> 3.0)
     acts_as_commentable (3.0.1)
     acts_as_list (0.1.7)
-    addressable (2.3.1)
+    addressable (2.3.2)
     ajax-chosen-rails (0.2.0)
       chosen-rails_ffcrm
       railties (~> 3.0)
