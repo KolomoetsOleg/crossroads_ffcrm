@@ -7,7 +7,7 @@ begin
 rescue LoadError
 end
 
-gem 'fat_free_crm', :git => 'https://github.com/fatfreecrm/fat_free_crm.git', :ref => "a6d5fe31c7a646ce78528c4d599bc486cb5f5cfa"
+gem 'fat_free_crm', :git => 'https://github.com/fatfreecrm/fat_free_crm.git', :ref => "184986080a2dfafa4da717feb47ef913f74b6393"
 
 # Allow textile markup in emails and comments
 gem 'RedCloth'
