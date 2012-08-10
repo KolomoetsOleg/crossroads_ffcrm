@@ -60,11 +60,11 @@ GIT
 
 GIT
   remote: https://github.com/fatfreecrm/fat_free_crm.git
-  revision: 184986080a2dfafa4da717feb47ef913f74b6393
-  ref: 184986080a2dfafa4da717feb47ef913f74b6393
+  revision: 9792ab808ec3faa5985801041dad2e52dcd52334
+  branch: datefix
   specs:
     fat_free_crm (0.11.3)
-      acts-as-taggable-on (~> 2.2.1)
+      acts-as-taggable-on (~> 2.3.3)
       acts_as_commentable (~> 3.0.1)
       acts_as_list (~> 0.1.4)
       ajax-chosen-rails (>= 0.2.0)
@@ -159,10 +159,10 @@ GEM
     activesupport (3.2.7)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    acts-as-taggable-on (2.2.2)
+    acts-as-taggable-on (2.3.3)
       rails (~> 3.0)
     acts_as_commentable (3.0.1)
-    acts_as_list (0.1.7)
+    acts_as_list (0.1.8)
     addressable (2.3.2)
     ajax-chosen-rails (0.2.0)
       chosen-rails_ffcrm
