@@ -29,7 +29,9 @@ namespace :ffcrm do
     desc "Setup shared directory"
     task :setup do
       sudo "mkdir -p #{deploy_to}/shared/formstack_resumes"
+      sudo "chown apache:apache #{deploy_to}/shared/formstack_resumes"
       sudo "mkdir -p #{deploy_to}/shared/avatars"
+      sudo "chown apache:apache #{deploy_to}/shared/avatars"
     end
     desc "Symlink app-specific shared directories"
     task :symlink do
