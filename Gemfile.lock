@@ -16,6 +16,13 @@ GIT
       activeresource
 
 GIT
+  remote: git@bitbucket.org:crossroadsIT/ffcrm_calendar.git
+  revision: 4fd1dff6150df62573c0566c6ea39ccd434f837f
+  specs:
+    ffcrm_calendar (0.0.1)
+      rails (~> 3.2.7)
+
+GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
   revision: 22b9620fdad2fcadb145ad4407d0a682c441634d
   specs:
@@ -229,7 +236,7 @@ GEM
       multi_json
       multi_xml
     httpclient (2.2.4)
-    i18n (0.6.0)
+    i18n (0.6.1)
     journey (1.0.4)
     jquery-rails (2.1.1)
       railties (>= 3.1.0, < 5.0)
@@ -362,6 +369,7 @@ DEPENDENCIES
   debugger
   fat_free_crm!
   ffcrm_authlogic_api!
+  ffcrm_calendar!
   ffcrm_crossroads!
   ffcrm_crossroads_formstack!
   ffcrm_crowd!

@@ -54,6 +54,8 @@ gem 'ffcrm_meta_search',   :git => 'https://github.com/crossroads/ffcrm_meta_sea
 
 gem 'ffcrm_authlogic_api', :git => 'https://github.com/crossroads/ffcrm_authlogic_api.git'
 
+gem 'ffcrm_calendar', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_calendar.git'
+
 gem 'hoptoad_notifier'
 gem 'whenever', '~> 0.7.0'
 gem 'crossroads_capistrano', :git => 'git://github.com/crossroads/crossroads_capistrano.git', :group => :development
