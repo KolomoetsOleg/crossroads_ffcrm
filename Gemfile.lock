@@ -17,14 +17,14 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_calendar.git
-  revision: 304c9a496067a681b418254ce6bbe62155072de0
+  revision: 4203819d3b89a5f3bc5febd8e26c95f3cb3b5062
   specs:
     ffcrm_calendar (0.0.1)
       rails (~> 3.2.7)
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: 22b9620fdad2fcadb145ad4407d0a682c441634d
+  revision: 34df4c4a907e3da96c41129db4bb70c0fa82648c
   specs:
     ffcrm_crossroads (1.0.1)
       fat_free_crm
