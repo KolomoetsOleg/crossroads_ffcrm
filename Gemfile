@@ -7,7 +7,7 @@ begin
 rescue LoadError
 end
 
-gem 'fat_free_crm', :git => 'https://github.com/fatfreecrm/fat_free_crm.git'
+gem 'fat_free_crm', :github => 'fatfreecrm/fat_free_crm'
 
 # Allow textile markup in emails and comments
 gem 'RedCloth'
@@ -39,26 +39,26 @@ end
 # Gems used by Crossroads
 #------------------------
 
-gem 'mingle4r',            :git => 'git://github.com/crossroads/mingle4r.git'
-gem 'ffcrm_mingle',        :git => 'https://github.com/fatfreecrm/ffcrm_mingle.git'
+gem 'mingle4r',            :github => 'crossroads/mingle4r'
+gem 'ffcrm_mingle',        :github => 'fatfreecrm/ffcrm_mingle'
 
-gem 'ffcrm_merge',         :git => 'https://github.com/fatfreecrm/ffcrm_merge.git'
-gem 'ffcrm_service_hooks', :git => 'https://github.com/fatfreecrm/ffcrm_service_hooks.git'
+gem 'ffcrm_merge',         :github => 'fatfreecrm/ffcrm_merge'
+gem 'ffcrm_service_hooks', :github => 'fatfreecrm/ffcrm_service_hooks'
 
 gem 'formstack', '0.0.1'
 gem 'ffcrm_crossroads',    :git => 'git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git'
 
-gem 'ffcrm_crossroads_formstack', :git => 'https://github.com/crossroads/ffcrm_crossroads_formstack.git'
+gem 'ffcrm_crossroads_formstack', :github => 'crossroads/ffcrm_crossroads_formstack'
 
-gem 'ffcrm_meta_search',   :git => 'https://github.com/crossroads/ffcrm_meta_search.git'
+gem 'ffcrm_meta_search',   :github => 'crossroads/ffcrm_meta_search'
 
-gem 'ffcrm_authlogic_api', :git => 'https://github.com/crossroads/ffcrm_authlogic_api.git'
+gem 'ffcrm_authlogic_api', :github => 'crossroads/ffcrm_authlogic_api'
 
 gem 'ffcrm_calendar', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_calendar.git'
 
 gem 'hoptoad_notifier'
 gem 'whenever', '~> 0.7.0'
-gem 'crossroads_capistrano', :git => 'git://github.com/crossroads/crossroads_capistrano.git', :group => :development
+gem 'crossroads_capistrano', :github => 'crossroads/crossroads_capistrano', :group => :development
 gem 'rails-erd', :group => :development
 
 group :production do
@@ -66,8 +66,8 @@ group :production do
 end
 
 group :production, :staging do
-  gem 'soap4r',            :git => 'https://github.com/tribalvibes/soap4r-spox.git'
-  gem 'crowd-crossroads',  :git => 'https://github.com/crossroads/crowd.git'
-  gem 'crowd_rails',       :git => 'https://github.com/crossroads/crowd_rails.git'
-  gem 'ffcrm_crowd',       :git => 'https://github.com/fatfreecrm/ffcrm_crowd.git'
+  gem 'soap4r',            :github => 'tribalvibes/soap4r-spox'
+  gem 'crowd-crossroads',  :github => 'crossroads/crowd'
+  gem 'crowd_rails',       :github => 'crossroads/crowd_rails'
+  gem 'ffcrm_crowd',       :github => 'fatfreecrm/ffcrm_crowd'
 end
