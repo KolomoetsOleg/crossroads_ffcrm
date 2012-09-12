@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 8f26ef25848667bffc467042c65802ff7076bb87
+  revision: 1f814cc46a768ecc44cd75b29dccd2191f46713b
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.3.3)
@@ -176,7 +176,7 @@ GEM
     authlogic (3.1.0)
       activerecord (>= 3.0.7)
       activerecord (>= 3.0.7)
-    builder (3.0.0)
+    builder (3.0.3)
     bundler_local_development (0.3.0)
       bundler
     cancan (1.6.8)
