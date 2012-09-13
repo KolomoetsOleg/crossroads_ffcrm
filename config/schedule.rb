@@ -16,7 +16,11 @@ job_type :rake, "cd :path && RAILS_ENV=:environment bundle exec rake :task --sil
 
 every "#{start_min_to_cron(5)} 7-23 * * *" do
   # Formstack submissions
-  rake "ffcrm:crossroads:formstack:pull", :output => {:standard => "log/formstack_cron.log"}
+  if environment == 'production'
+    rake "ffcrm:crossroads:formstack:pull", :output => {:standard => "log/formstack_cron.log"}
+  else
+    rake "ffcrm:crossroads:formstack:pull:dry", :output => {:standard => "log/formstack_cron.log"}
+  end
 end
 
 every "#{start_min_to_cron(3)} 7-23 * * *" do
