@@ -30,7 +30,7 @@ GIT
 
 GIT
   remote: git://github.com/crossroads/ffcrm_crossroads_formstack.git
-  revision: 48f6a128b7c0d3aefa21797280b4a0d27e768435
+  revision: d48793fa66e7c75cce0e3e675549ca844752fffd
   specs:
     ffcrm_crossroads_formstack (1.0.2)
       fat_free_crm
@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 6234cc132bebb2ce75b9f5b140a14fb2b12e6e8d
+  revision: 6effb6733857fa42d752d75905fbf2fd3d7428a6
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.3.3)
