@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: da3215a7662197df73bd12bf6a9380bd3a298174
+  revision: 5d22fafab890455a5cbb9de6a286925dfcaf46d8
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.3.3)
@@ -194,7 +194,7 @@ GEM
       railties (~> 3.0)
       thor (~> 0.14)
     chronic (0.6.7)
-    cocaine (0.3.0)
+    cocaine (0.3.1)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
