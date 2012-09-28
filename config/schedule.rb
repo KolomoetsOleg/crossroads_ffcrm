@@ -14,7 +14,7 @@ end
 job_type :rake, "cd :path && RAILS_ENV=:environment bundle exec rake :task --silent :output"
 
 
-every "#{start_min_to_cron(5)} 7-23 * * *" do
+every "#{start_min_to_cron(2, 60)} 7-23 * * *" do
   # Formstack submissions
   if environment == 'production'
     rake "ffcrm:crossroads:formstack:pull", :output => {:standard => "log/formstack_cron.log"}
@@ -23,7 +23,7 @@ every "#{start_min_to_cron(5)} 7-23 * * *" do
   end
 end
 
-every "#{start_min_to_cron(3)} 7-23 * * *" do
+every "#{start_min_to_cron(6, 15)} 7-23 * * *" do
   # Email dropbox
   if environment == 'production'
     rake "ffcrm:dropbox:run", :output => {:standard => "log/dropbox_cron.log"}
@@ -32,7 +32,7 @@ every "#{start_min_to_cron(3)} 7-23 * * *" do
   end
 end
 
-every "#{start_min_to_cron(0, 4)} * * * *" do
+every "#{start_min_to_cron(12, 15)} * * * *" do
   # Comments Replies Inbox
   if environment == 'production'
     rake "ffcrm:comment_replies:run", :output => {:standard => "log/comment_replies_cron.log"}
@@ -42,7 +42,7 @@ every "#{start_min_to_cron(0, 4)} * * * *" do
 end
 
 
-every "*/20 * * * *" do
+every "32 * * * *" do
   # Refresh cached volunteering statistics from Clockit
   rake "ffcrm:crossroads:update_clockit_cache",
        :output => {:standard => "log/clockit_cache_cron.log"}
