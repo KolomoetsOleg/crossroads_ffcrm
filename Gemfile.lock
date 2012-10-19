@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 5d22fafab890455a5cbb9de6a286925dfcaf46d8
+  revision: 2ac9340c1aae063106ba22740492caa3eb3951a0
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.3.3)
@@ -133,6 +133,13 @@ GIT
       fat_free_crm
       nestful
 
+GIT
+  remote: git@github.com:fatfreecrm/ffcrm_lookup_field.git
+  revision: b66ac12e3ab59cbc0ada946975c9f421bfb6d4e5
+  specs:
+    ffcrm_lookup_field (0.0.1)
+      rails (~> 3.2.8)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -177,7 +184,7 @@ GEM
     authlogic (3.1.0)
       activerecord (>= 3.0.7)
       activerecord (>= 3.0.7)
-    builder (3.0.3)
+    builder (3.0.4)
     bundler_local_development (0.3.0)
       bundler
     cancan (1.6.8)
@@ -194,7 +201,7 @@ GEM
       railties (~> 3.0)
       thor (~> 0.14)
     chronic (0.6.7)
-    cocaine (0.3.1)
+    cocaine (0.4.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -236,7 +243,7 @@ GEM
     httpclient (2.2.7)
     i18n (0.6.1)
     journey (1.0.4)
-    jquery-rails (2.1.2)
+    jquery-rails (2.1.3)
       railties (>= 3.1.0, < 5.0)
       thor (~> 0.14)
     json (1.7.5)
@@ -264,7 +271,7 @@ GEM
     paper_trail (2.6.3)
       activerecord (~> 3.0)
       railties (~> 3.0)
-    paperclip (2.7.0)
+    paperclip (2.7.1)
       activerecord (>= 2.3.0)
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
@@ -330,7 +337,7 @@ GEM
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
-    simple_form (2.0.2)
+    simple_form (2.0.4)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
     sprockets (2.1.3)
@@ -372,6 +379,7 @@ DEPENDENCIES
   ffcrm_crossroads!
   ffcrm_crossroads_formstack!
   ffcrm_crowd!
+  ffcrm_lookup_field!
   ffcrm_merge!
   ffcrm_meta_search!
   ffcrm_mingle!
