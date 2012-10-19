@@ -56,7 +56,8 @@ gem 'ffcrm_authlogic_api', :github => 'crossroads/ffcrm_authlogic_api'
 
 gem 'ffcrm_calendar', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_calendar.git'
 
-gem 'ffcrm_lookup_field', :git => 'git@github.com:fatfreecrm/ffcrm_lookup_field.git'
+gem 'ffcrm_lookup_field', :github => 'fatfreecrm/ffcrm_lookup_field'
+
 
 gem 'hoptoad_notifier'
 gem 'whenever', '~> 0.7.0'

@@ -88,6 +88,13 @@ GIT
       fat_free_crm
 
 GIT
+  remote: git://github.com/fatfreecrm/ffcrm_lookup_field.git
+  revision: b66ac12e3ab59cbc0ada946975c9f421bfb6d4e5
+  specs:
+    ffcrm_lookup_field (0.0.1)
+      rails (~> 3.2.8)
+
+GIT
   remote: git://github.com/fatfreecrm/ffcrm_merge.git
   revision: e182bb22355dccd116cdf212c30f5782df51c551
   specs:
@@ -132,13 +139,6 @@ GIT
     ffcrm_crossroads (1.0.1)
       fat_free_crm
       nestful
-
-GIT
-  remote: git@github.com:fatfreecrm/ffcrm_lookup_field.git
-  revision: b66ac12e3ab59cbc0ada946975c9f421bfb6d4e5
-  specs:
-    ffcrm_lookup_field (0.0.1)
-      rails (~> 3.2.8)
 
 GEM
   remote: http://rubygems.org/
