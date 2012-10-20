@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 2ac9340c1aae063106ba22740492caa3eb3951a0
+  revision: ce78e03f34dbcf1b9076dcfa64de82761eee5836
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.3.3)
@@ -68,7 +68,7 @@ GIT
       jquery-rails
       nokogiri
       paper_trail
-      paperclip (~> 2.7.0)
+      paperclip (~> 2.8.0)
       premailer
       prototype-rails
       rails (~> 3.2)
@@ -201,7 +201,7 @@ GEM
       railties (~> 3.0)
       thor (~> 0.14)
     chronic (0.6.7)
-    cocaine (0.4.0)
+    cocaine (0.4.2)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -271,7 +271,7 @@ GEM
     paper_trail (2.6.3)
       activerecord (~> 3.0)
       railties (~> 3.0)
-    paperclip (2.7.1)
+    paperclip (2.8.0)
       activerecord (>= 2.3.0)
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
