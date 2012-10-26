@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 3145a362e9f2142dc967567697585a3054f7cbd3
+  revision: 9759e8e0924cffe8a4111fccb1cc6c7ff808ce94
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.3.3)
@@ -126,7 +126,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_calendar.git
-  revision: 557ea380f6525ca7a09532491ac9a70246db42f5
+  revision: 36ec054ae59e57ecf0d45f483eb84943a19fdbba
   specs:
     ffcrm_calendar (0.0.1)
       rails (~> 3.2.7)
@@ -134,7 +134,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: 63083b4dcb59bc6fcf89fb31774e02adbbcfd1bb
+  revision: ea20e091dfbeda8eed35ad778233f7e1d8824943
   specs:
     ffcrm_crossroads (1.0.1)
       fat_free_crm
