@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 94c184d9ddeb07eaf94229336422ecee93e85940
+  revision: 8c799d9cbc2b33a6b4518acbb5ff7eb242cae302
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.3.3)
@@ -187,7 +187,7 @@ GEM
       activerecord (>= 3.0.7)
       activerecord (>= 3.0.7)
     builder (3.0.4)
-    bundler_local_development (0.4.1)
+    bundler_local_development (0.3.0)
       bundler
     cancan (1.6.8)
     capistrano (2.13.5)
@@ -279,7 +279,7 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
-    pg (0.12.2)
+    pg (0.13.2)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -323,7 +323,7 @@ GEM
       activerecord (~> 3.0)
       chronic (~> 0.6.7)
       polyamorous (~> 0.5.0)
-    ransack_ui (0.1.0)
+    ransack_ui (0.1.1)
       chronic (>= 0.6.7)
     rbx-require-relative (0.0.9)
     rdoc (3.12)
@@ -360,6 +360,9 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
+    turbo-sprockets-rails3 (0.3.2)
+      railties (> 3.2.8, < 4.0.0)
+      sprockets (>= 2.0.0)
     tzinfo (0.3.35)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
@@ -397,12 +400,12 @@ DEPENDENCIES
   hoptoad_notifier
   mingle4r!
   newrelic_rpm (= 3.3.0)
-  pg (~> 0.12.2)
+  pg (~> 0.13.2)
   rails-erd
-  rails3-jquery-autocomplete
   ruby-debug
   sass-rails (~> 3.2.3)
   soap4r!
   therubyracer
+  turbo-sprockets-rails3
   uglifier (>= 1.0.3)
   whenever (~> 0.7.0)

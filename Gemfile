@@ -12,14 +12,11 @@ gem 'fat_free_crm', :github => 'fatfreecrm/fat_free_crm'
 # Allow textile markup in emails and comments
 gem 'RedCloth'
 
-# Needs to be explicitly added to work with bundler_local_development
-gem 'rails3-jquery-autocomplete'
-
 # Uncomment the database that you have configured in config/database.yml
 # ----------------------------------------------------------------------
 # gem 'mysql2', '0.3.10'
 # gem 'sqlite3'
-gem 'pg', '~> 0.12.2'
+gem 'pg', '~> 0.13.2'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -29,6 +26,8 @@ group :assets do
   gem 'therubyracer', :platform => :ruby  # C Ruby (MRI) or Rubinius, but NOT Windows
   gem 'uglifier',     '>= 1.0.3'
 end
+
+gem 'turbo-sprockets-rails3'
 
 group :development, :test do
   gem 'ruby-debug', :platform => :mri_18
