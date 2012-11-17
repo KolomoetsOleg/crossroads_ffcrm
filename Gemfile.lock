@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 899ebc01f0c671bd28608d7a28e2d0adbc6ee55d
+  revision: 64d3350401d38f056f43a8d54eb9dea5b0a33bf5
   branch: master
   specs:
     fat_free_crm (0.11.3)
@@ -122,10 +122,10 @@ GIT
 
 GIT
   remote: git://github.com/ndbroadbent/ransack_ui.git
-  revision: decf9dcbb7674269ec7b6bfeee69142b5b65271e
+  revision: 29a9d873ccf654796c28d733bbd09ad543013236
   branch: master
   specs:
-    ransack_ui (0.1.6)
+    ransack_ui (0.1.7)
       ransack_chronic
 
 GIT
@@ -280,7 +280,7 @@ GEM
       net-ssh (>= 1.99.1)
     newrelic_rpm (3.3.0)
     nokogiri (1.5.5)
-    paper_trail (2.6.3)
+    paper_trail (2.6.4)
       activerecord (~> 3.0)
       railties (~> 3.0)
     paperclip (2.8.0)
@@ -326,7 +326,7 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.0.0)
+    rake (10.0.1)
     ransack_chronic (1.0.0)
       chronic (>= 0.6.7)
     ransack_ffcrm (0.7.1)
