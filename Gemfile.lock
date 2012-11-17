@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 64d3350401d38f056f43a8d54eb9dea5b0a33bf5
+  revision: c04f7760c0fc4ff7488cdd24f06b79185f8796d2
   branch: master
   specs:
     fat_free_crm (0.11.3)
@@ -75,7 +75,7 @@ GIT
       rails (~> 3.2)
       rails3-jquery-autocomplete
       ransack_ffcrm (~> 0.7.1)
-      ransack_ui (>= 0.1.3)
+      ransack_ui (>= 0.1.7)
       responds_to_parent (>= 1.1.0)
       sass (~> 3)
       select2-rails
@@ -122,7 +122,7 @@ GIT
 
 GIT
   remote: git://github.com/ndbroadbent/ransack_ui.git
-  revision: 29a9d873ccf654796c28d733bbd09ad543013236
+  revision: 659c021431833c578b663e536f3971b1da7f9caa
   branch: master
   specs:
     ransack_ui (0.1.7)
