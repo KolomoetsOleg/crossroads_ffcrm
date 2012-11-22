@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: dacb8821ceba4e5aa600c8f348f03613007a2b71
+  revision: 5bfde907cbc88720ba7c15d038a7317eb23fc726
   branch: master
   specs:
     fat_free_crm (0.11.3)
