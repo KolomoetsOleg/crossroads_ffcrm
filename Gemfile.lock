@@ -190,6 +190,8 @@ GEM
     builder (3.0.4)
     bundler_local_development (0.3.0)
       bundler
+    cache_digests (0.2.0)
+      actionpack (>= 3.2)
     cancan (1.6.8)
     capistrano (2.13.5)
       highline
@@ -339,7 +341,6 @@ GEM
     ruby-debug-base (0.10.4)
       linecache (>= 0.3)
     ruby-graphviz (1.0.8)
-    ruby-prof (0.11.2)
     rvm-capistrano (1.2.7)
       capistrano (>= 2.0.0)
     sass (3.2.3)
@@ -384,6 +385,7 @@ PLATFORMS
 DEPENDENCIES
   RedCloth
   bundler_local_development
+  cache_digests
   coffee-rails (~> 3.2.1)
   crossroads_capistrano!
   crowd-crossroads!
@@ -407,7 +409,6 @@ DEPENDENCIES
   pg (~> 0.13.2)
   rails-erd
   ruby-debug
-  ruby-prof
   sass-rails (~> 3.2.3)
   soap4r!
   therubyracer
