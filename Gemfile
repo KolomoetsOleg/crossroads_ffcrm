@@ -32,6 +32,7 @@ gem 'turbo-sprockets-rails3'
 group :development, :test do
   gem 'ruby-debug', :platform => :mri_18
   gem 'debugger',   :platform => :mri_19
+  gem 'ruby-prof'
 end
 
 
@@ -63,9 +64,7 @@ gem 'whenever', '~> 0.7.0'
 gem 'crossroads_capistrano', :github => 'crossroads/crossroads_capistrano', :group => :development
 gem 'rails-erd', :group => :development
 
-group :production do
-  gem 'newrelic_rpm', '3.3.0'
-end
+gem 'newrelic_rpm'
 
 group :production, :staging do
   gem 'soap4r',            :github => 'tribalvibes/soap4r-spox'
