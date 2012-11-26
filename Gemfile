@@ -71,5 +71,4 @@ group :production, :staging do
   gem 'crowd-crossroads',  :github => 'crossroads/crowd'
   gem 'crowd_rails',       :github => 'crossroads/crowd_rails'
   gem 'ffcrm_crowd',       :github => 'fatfreecrm/ffcrm_crowd'
-  gem 'passenger'
 end
