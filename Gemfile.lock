@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: b48f674a37a1dcb7740325b0dee3da7485388e00
+  revision: ff9d6138259a8b9886aa32cd744e22fc6ede38da
   branch: master
   specs:
     fat_free_crm (0.11.3)
@@ -137,7 +137,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: 063132b6a16333867ba5cfbca4b1580da5e2d305
+  revision: 213dda7b9da68d9d0f2bc66e0f0b47e53fb82426
   specs:
     ffcrm_crossroads (1.0.1)
       fat_free_crm
