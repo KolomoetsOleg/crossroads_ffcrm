@@ -33,5 +33,5 @@ FatFreeCRM::Application.configure do
   config.assets.compress = false
 
   # Expands the lines which load the assets
-  config.assets.debug = false
+  config.assets.debug = true
 end
