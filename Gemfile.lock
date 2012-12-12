@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/ffcrm_lookup_field.git
-  revision: b66ac12e3ab59cbc0ada946975c9f421bfb6d4e5
+  revision: a1cd4637e3888d273162b462d902ac5f11556083
   specs:
     ffcrm_lookup_field (0.0.1)
       rails (~> 3.2.8)
@@ -261,7 +261,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.19)
-    multi_json (1.4.0)
+    multi_json (1.5.0)
     multi_xml (0.5.1)
     nestful (0.0.8)
       activesupport (>= 3.0.0.beta)
