@@ -137,7 +137,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: 52c18bcd28e04223c1e0a4bbcf2a998febbee399
+  revision: db59cff40e6550168148b5763efcf52e8bda5224
   specs:
     ffcrm_crossroads (1.0.1)
       fat_free_crm
@@ -320,7 +320,7 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.0.2)
+    rake (10.0.3)
     ransack_chronic (1.0.0)
       chronic (>= 0.6.7)
     ransack_ffcrm (0.7.1)
