@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: git://github.com/crossroads/ffcrm_meta_search.git
-  revision: 783ef27181e1d555f0d9cdd7e31c86c0e9dcd342
+  revision: bc48285e9e2bcbfca5e9538494a46e8f47956531
   specs:
     ffcrm_meta_search (1.0.1)
       fat_free_crm
@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 81a8e7e97ec7b5ea34fc6649c178b833451c4770
+  revision: b4a58fc863b8897b4c11283bb27c038485b1685a
   branch: master
   specs:
     fat_free_crm (0.11.3)
