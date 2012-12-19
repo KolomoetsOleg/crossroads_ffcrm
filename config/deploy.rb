@@ -116,3 +116,10 @@ namespace :clockit_cache do
     run "cd #{current_path} && RAILS_ENV=#{rails_env} bundle exec rake ffcrm:crossroads:update_clockit_cache"
   end
 end
+
+namespace :cache do
+  desc "Clear rails cache"
+  task :clear do
+    run "cd #{current_path} && RAILS_ENV=#{rails_env} bundle exec rake tmp:clear"
+  end
+end
