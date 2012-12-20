@@ -31,7 +31,11 @@ FatFreeCRM::Application.configure do
 
   # Do not compress assets
   config.assets.compress = false
-
-  # Expands the lines which load the assets
+  
+  # Debug assets
   config.assets.debug = true
+
+  # Stops rails serving public/assets
+  config.serve_static_assets = false
+
 end
