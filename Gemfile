@@ -34,6 +34,10 @@ group :development, :test do
   gem 'debugger',   :platform => :mri_19
 end
 
+group :development do
+  gem 'thin'
+  gem 'quiet_assets'
+end
 
 # Gems used by Crossroads
 #------------------------
