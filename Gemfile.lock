@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: git://github.com/crossroads/ffcrm_meta_search.git
-  revision: bc48285e9e2bcbfca5e9538494a46e8f47956531
+  revision: 818e7e3edb24f39fe5d02cfa97018d89784d1395
   specs:
     ffcrm_meta_search (1.0.1)
       fat_free_crm
@@ -172,6 +172,10 @@ GEM
     authlogic (3.1.0)
       activerecord (>= 3.0.7)
       activerecord (>= 3.0.7)
+    better_errors (0.3.2)
+      coderay (>= 1.0.0)
+      erubis (>= 2.7.0)
+    binding_of_caller (0.6.8)
     builder (3.0.4)
     bundler_local_development (0.3.0)
       bundler
@@ -193,6 +197,7 @@ GEM
       thor (~> 0.14)
     chronic (0.6.7)
     cocaine (0.4.2)
+    coderay (1.0.8)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -377,6 +382,8 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
+  better_errors
+  binding_of_caller
   bundler_local_development
   cache_digests
   coffee-rails (~> 3.2.1)
