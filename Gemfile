@@ -39,8 +39,8 @@ end
 group :development do
   gem 'thin'
   gem 'quiet_assets'
-  gem "better_errors"
-  gem "binding_of_caller"
+  gem "better_errors",       :platform => :mri_19
+  gem "binding_of_caller",   :platform => :mri_19
 end
 
 # Gems used by Crossroads
@@ -72,7 +72,7 @@ gem 'crossroads_capistrano', :github => 'crossroads/crossroads_capistrano', :gro
 gem 'rails-erd', :group => :development
 
 gem 'newrelic_rpm'
-gem 'cache_digests'
+gem 'cache_digests',       :platform => :mri_19
 
 group :production, :staging do
   gem 'soap4r',            :github => 'tribalvibes/soap4r-spox'
