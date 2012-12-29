@@ -41,6 +41,7 @@ group :development do
   gem 'quiet_assets'
   gem "better_errors",       :platform => :mri_19
   gem "binding_of_caller",   :platform => :mri_19
+  gem 'meta_request'
 end
 
 # Gems used by Crossroads
@@ -74,7 +75,11 @@ gem 'rails-erd', :group => :development
 gem 'newrelic_rpm'
 gem 'cache_digests',       :platform => :mri_19
 
-group :production, :staging do
+group :development, :staging do
+  gem 'ffcrm_devise', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
+end
+
+group :production do
   gem 'soap4r',            :github => 'tribalvibes/soap4r-spox'
   gem 'crowd-crossroads',  :github => 'crossroads/crowd'
   gem 'crowd_rails',       :github => 'crossroads/crowd_rails'

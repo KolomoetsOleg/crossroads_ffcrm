@@ -44,7 +44,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: e61e8cbf3760fcf6bad5a2761c95ee03dafd85b9
+  revision: fec6ddbb09fb3f67ac6317b1306d30a1f23803d5
   branch: master
   specs:
     fat_free_crm (0.11.3)
@@ -68,7 +68,7 @@ GIT
       rails (~> 3.2)
       rails3-jquery-autocomplete
       ransack_ffcrm (~> 0.7.1)
-      ransack_ui (>= 1.0.1)
+      ransack_ui (>= 1.0.2)
       responds_to_parent (>= 1.1.0)
       sass (~> 3)
       select2-rails
@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/ffcrm_merge.git
-  revision: dde91dae3a2c0bdfcce2cc363a5fab24d0972cb5
+  revision: e1b68d1af64bda6fd8d9b185ffed74b18b13e432
   specs:
     ffcrm_merge (1.2)
       fat_free_crm
@@ -122,11 +122,22 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: c470317edc128501ee58fb2e0d831e29b5524490
+  revision: b82c99cf9e3ceace7d8f635edbfcd5ead2180cf3
   specs:
     ffcrm_crossroads (1.0.1)
       fat_free_crm
       nestful
+
+GIT
+  remote: git@bitbucket.org:crossroadsIT/ffcrm_devise.git
+  revision: 9ed245dd5e493954db63c22a3116f171f50e13fe
+  specs:
+    ffcrm_devise (0.0.1)
+      devise
+      fat_free_crm
+      omniauth
+      omniauth_crowd
+      rails (~> 3.2.9)
 
 GEM
   remote: http://rubygems.org/
@@ -172,6 +183,7 @@ GEM
     authlogic (3.1.0)
       activerecord (>= 3.0.7)
       activerecord (>= 3.0.7)
+    bcrypt-ruby (3.0.1)
     better_errors (0.3.2)
       coderay (>= 1.0.0)
       erubis (>= 2.7.0)
@@ -217,6 +229,11 @@ GEM
     debugger-linecache (1.1.2)
       debugger-ruby_core_source (>= 1.1.1)
     debugger-ruby_core_source (1.1.4)
+    devise (2.1.2)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (~> 3.1)
+      warden (~> 1.2.1)
     dynamic_form (1.1.4)
     email_reply_parser_ffcrm (0.5.0)
     erubis (2.7.0)
@@ -252,6 +269,9 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    meta_request (0.2.0)
+      rack-contrib
+      rails
     mime-types (1.19)
     multi_json (1.5.0)
     multi_xml (0.5.1)
@@ -266,7 +286,14 @@ GEM
       net-ssh (>= 1.99.1)
     newrelic_rpm (3.5.4.33)
     nokogiri (1.5.6)
-    paper_trail (2.6.4)
+    omniauth (1.1.1)
+      hashie (~> 1.2)
+      rack
+    omniauth_crowd (2.1.1)
+      nokogiri (>= 1.4.4)
+      omniauth (~> 1.0)
+    orm_adapter (0.4.0)
+    paper_trail (2.7.0)
       activerecord (~> 3.0)
       railties (~> 3.0)
     paperclip (2.8.0)
@@ -288,6 +315,8 @@ GEM
     rack (1.4.1)
     rack-cache (1.2)
       rack (>= 0.4)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
     rack-ssl (1.3.2)
       rack
     rack-test (0.6.2)
@@ -315,6 +344,10 @@ GEM
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
     rake (10.0.3)
+    ransack (0.7.2)
+      actionpack (~> 3.0)
+      activerecord (~> 3.0)
+      polyamorous (~> 0.5.0)
     ransack_chronic (1.1.0)
       chronic (>= 0.6.7)
     ransack_ffcrm (0.7.1)
@@ -322,8 +355,9 @@ GEM
       activerecord (~> 3.0)
       chronic (~> 0.6.7)
       polyamorous (~> 0.5.0)
-    ransack_ui (1.0.1)
-      ransack_chronic
+    ransack_ui (1.0.2)
+      ransack
+      ransack_chronic (>= 1.1.0)
     rbx-require-relative (0.0.9)
     rdoc (3.12)
       json (~> 1.4)
@@ -372,6 +406,8 @@ GEM
       multi_json (~> 1.0, >= 1.0.2)
     valium (0.5.0)
       activerecord (>= 3.0.2)
+    warden (1.2.1)
+      rack (>= 1.0)
     whenever (0.7.3)
       activesupport (>= 2.3.4)
       chronic (~> 0.6.3)
@@ -397,12 +433,14 @@ DEPENDENCIES
   ffcrm_crossroads!
   ffcrm_crossroads_formstack!
   ffcrm_crowd!
+  ffcrm_devise!
   ffcrm_lookup_field!
   ffcrm_merge!
   ffcrm_meta_search!
   ffcrm_service_hooks!
   formstack (= 0.0.1)
   hoptoad_notifier
+  meta_request
   newrelic_rpm
   pg (~> 0.13.2)
   quiet_assets
