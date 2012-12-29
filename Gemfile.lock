@@ -44,10 +44,10 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: fec6ddbb09fb3f67ac6317b1306d30a1f23803d5
+  revision: 1876cd349bf8da11c8b966cb8b280304fc4c72be
   branch: master
   specs:
-    fat_free_crm (0.11.3)
+    fat_free_crm (0.12.0)
       acts-as-taggable-on (~> 2.3.3)
       acts_as_commentable (~> 3.0.1)
       acts_as_list (~> 0.1.4)
