@@ -69,7 +69,7 @@ gem 'ffcrm_lookup_field', :github => 'fatfreecrm/ffcrm_lookup_field'
 
 gem 'hoptoad_notifier'
 gem 'whenever', '~> 0.7.0'
-gem 'crossroads_capistrano', :github => 'crossroads/crossroads_capistrano', :group => :development
+gem 'crossroads_capistrano', '~> 1.4.3'
 gem 'rails-erd', :group => :development
 
 gem 'newrelic_rpm'

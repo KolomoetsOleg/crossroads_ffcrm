@@ -3,6 +3,7 @@ set :use_sudo, false
 
 set :ip_address, "192.168.0.149"
 set :site_domain_name, "crm.crossroads.org.hk"
+set :rails_env, "production"
 
 set :application,  "crm"
 
