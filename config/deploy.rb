@@ -14,6 +14,7 @@ set :domain,             "crossroadsint.org"
 set :repository,         "git://github.com/crossroads/ffcrm_app.git"
 set :rvm_ruby_string,    "ruby-1.9.3-p362"
 set :rvm_type,           :root
+set :rvm_install_with_sudo, true
 set :passenger_version,  "3.0.18"
 set :yum_packages,       %w(ImageMagick-devel libxml2 libxml2-devel libxslt libxslt-devel)
 set :default_stage,      "staging"
