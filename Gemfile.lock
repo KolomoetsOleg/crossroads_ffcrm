@@ -112,7 +112,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: b82c99cf9e3ceace7d8f635edbfcd5ead2180cf3
+  revision: 00658ac2c8beae825d7cc5b583f9dc174be233f2
   specs:
     ffcrm_crossroads (1.0.1)
       fat_free_crm
@@ -258,8 +258,6 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.7.6)
     libv8 (3.3.10.4)
-    linecache (0.46)
-      rbx-require-relative (> 0.0.4)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -307,7 +305,7 @@ GEM
       rails (~> 3.2)
     quiet_assets (1.0.1)
       railties (~> 3.1)
-    rack (1.4.1)
+    rack (1.4.3)
     rack-cache (1.2)
       rack (>= 0.4)
     rack-contrib (1.1.0)
@@ -353,20 +351,14 @@ GEM
     ransack_ui (1.0.2)
       ransack
       ransack_chronic (>= 1.1.0)
-    rbx-require-relative (0.0.9)
     rdoc (3.12)
       json (~> 1.4)
     responds_to_parent (1.1.0)
     ri_cal (0.8.8)
-    ruby-debug (0.10.4)
-      columnize (>= 0.1)
-      ruby-debug-base (~> 0.10.4.0)
-    ruby-debug-base (0.10.4)
-      linecache (>= 0.3)
     ruby-graphviz (1.0.8)
     rvm-capistrano (1.2.7)
       capistrano (>= 2.0.0)
-    sass (3.2.4)
+    sass (3.2.5)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -440,7 +432,6 @@ DEPENDENCIES
   pg (~> 0.13.2)
   quiet_assets
   rails-erd
-  ruby-debug
   sass-rails (~> 3.2.3)
   soap4r!
   therubyracer

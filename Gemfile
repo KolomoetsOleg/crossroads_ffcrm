@@ -32,15 +32,14 @@ end
 gem 'turbo-sprockets-rails3'
 
 group :development, :test do
-  gem 'ruby-debug', :platform => :mri_18
-  gem 'debugger',   :platform => :mri_19
+  gem 'debugger'
 end
 
 group :development do
   gem 'thin'
   gem 'quiet_assets'
-  gem "better_errors",       :platform => :mri_19
-  gem "binding_of_caller",   :platform => :mri_19
+  gem "better_errors"
+  gem "binding_of_caller"
   gem 'meta_request'
 end
 
@@ -73,7 +72,7 @@ gem 'crossroads_capistrano', '~> 1.4.3'
 gem 'rails-erd', :group => :development
 
 gem 'newrelic_rpm'
-gem 'cache_digests',       :platform => :mri_19
+gem 'cache_digests'
 
 group :development, :staging do
   gem 'ffcrm_devise', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
