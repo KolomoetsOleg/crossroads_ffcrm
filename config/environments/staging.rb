@@ -10,5 +10,9 @@ if defined?(FatFreeCRM::Application)
 
     # Full error reports
     config.consider_all_requests_local = true
+    
+    # Tell Action Mailer not to deliver emails to the real world.
+    # The :file delivery method accumulates sent emails tmp/mail
+    config.action_mailer.delivery_method = :file
   end
 end
