@@ -112,7 +112,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: 00658ac2c8beae825d7cc5b583f9dc174be233f2
+  revision: d337d8ec01c9ba05cfb562ae08d7f96c14d0f4c8
   specs:
     ffcrm_crossroads (1.0.1)
       fat_free_crm
