@@ -34,7 +34,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 0037a3329288697c80ca205217edd144b9930450
+  revision: b62f87448098d576ebbb90489954f60d6fa8918d
   branch: master
   specs:
     fat_free_crm (0.12.0)
@@ -58,7 +58,7 @@ GIT
       rails (~> 3.2.11)
       rails3-jquery-autocomplete
       ransack_ffcrm (~> 0.7.1)
-      ransack_ui (>= 1.0.2)
+      ransack_ui (>= 1.1.0)
       responds_to_parent (>= 1.1.0)
       sass (~> 3)
       select2-rails
@@ -112,7 +112,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: d337d8ec01c9ba05cfb562ae08d7f96c14d0f4c8
+  revision: 8f920c9bba62468254b45623ecdf98a7c4dd2172
   specs:
     ffcrm_crossroads (1.0.1)
       fat_free_crm
@@ -256,7 +256,7 @@ GEM
     httpclient (2.3.2)
     i18n (0.6.1)
     journey (1.0.4)
-    jquery-rails (2.1.4)
+    jquery-rails (2.2.0)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.7.6)
@@ -351,7 +351,7 @@ GEM
       activerecord (~> 3.0)
       chronic (~> 0.6.7)
       polyamorous (~> 0.5.0)
-    ransack_ui (1.0.2)
+    ransack_ui (1.1.0)
       ransack
       ransack_chronic (>= 1.1.0)
     rdoc (3.12)
