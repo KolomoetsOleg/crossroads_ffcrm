@@ -20,10 +20,11 @@ GIT
 
 GIT
   remote: git://github.com/crossroads/ffcrm_crossroads_formstack.git
-  revision: 48f6a128b7c0d3aefa21797280b4a0d27e768435
+  revision: 214197e161819c6490371a241895f93c2d059324
   specs:
     ffcrm_crossroads_formstack (1.0.2)
       fat_free_crm
+      formstack
 
 GIT
   remote: git://github.com/crossroads/ffcrm_meta_search.git
@@ -250,9 +251,9 @@ GEM
       activesupport
       builder
     htmlentities (4.3.1)
-    httparty (0.9.0)
+    httparty (0.10.2)
       multi_json (~> 1.0)
-      multi_xml
+      multi_xml (>= 0.5.2)
     httpclient (2.3.2)
     i18n (0.6.1)
     journey (1.0.4)
@@ -270,7 +271,7 @@ GEM
       rails
     mime-types (1.20.1)
     multi_json (1.5.0)
-    multi_xml (0.5.1)
+    multi_xml (0.5.3)
     nestful (0.0.8)
       activesupport (>= 3.0.0.beta)
     net-scp (1.0.4)
@@ -427,7 +428,6 @@ DEPENDENCIES
   ffcrm_merge!
   ffcrm_meta_search!
   ffcrm_service_hooks!
-  formstack (= 0.0.1)
   hoptoad_notifier
   meta_request
   newrelic_rpm

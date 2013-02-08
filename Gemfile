@@ -48,23 +48,14 @@ end
 
 # gem 'mingle4r',            :github => 'crossroads/mingle4r'
 # gem 'ffcrm_mingle',        :github => 'fatfreecrm/ffcrm_mingle'
-
 gem 'ffcrm_merge',         :github => 'fatfreecrm/ffcrm_merge'
 gem 'ffcrm_service_hooks', :github => 'fatfreecrm/ffcrm_service_hooks'
-
-gem 'formstack', '0.0.1'
 gem 'ffcrm_crossroads',    :git => 'git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git'
-
 gem 'ffcrm_crossroads_formstack', :github => 'crossroads/ffcrm_crossroads_formstack'
-
 gem 'ffcrm_meta_search',   :github => 'crossroads/ffcrm_meta_search'
-
 gem 'ffcrm_authlogic_api', :github => 'crossroads/ffcrm_authlogic_api'
-
 gem 'ffcrm_calendar', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_calendar.git'
-
 gem 'ffcrm_lookup_field', :github => 'fatfreecrm/ffcrm_lookup_field'
-
 
 gem 'hoptoad_notifier'
 gem 'whenever', '~> 0.7.0'
