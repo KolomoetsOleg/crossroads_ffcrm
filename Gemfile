@@ -72,7 +72,6 @@ gem 'crossroads_capistrano', '~> 1.4.3'
 gem 'rails-erd', :group => :development
 
 gem 'newrelic_rpm'
-gem 'cache_digests'
 
 group :development, :staging do
   gem 'ffcrm_devise', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
