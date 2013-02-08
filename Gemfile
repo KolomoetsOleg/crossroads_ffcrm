@@ -29,8 +29,6 @@ group :assets do
   gem 'uglifier',     '>= 1.0.3'
 end
 
-gem 'turbo-sprockets-rails3'
-
 group :development, :test do
   gem 'debugger'
 end
@@ -45,7 +43,6 @@ end
 
 # Gems used by Crossroads
 #------------------------
-
 # gem 'mingle4r',            :github => 'crossroads/mingle4r'
 # gem 'ffcrm_mingle',        :github => 'fatfreecrm/ffcrm_mingle'
 gem 'ffcrm_merge',         :github => 'fatfreecrm/ffcrm_merge'
@@ -60,9 +57,8 @@ gem 'ffcrm_lookup_field', :github => 'fatfreecrm/ffcrm_lookup_field'
 gem 'hoptoad_notifier'
 gem 'whenever', '~> 0.7.0'
 gem 'crossroads_capistrano', '~> 1.4.3'
-gem 'rails-erd', :group => :development
-
 gem 'newrelic_rpm'
+gem 'turbo-sprockets-rails3'
 
 group :development, :staging do
   gem 'ffcrm_devise', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
