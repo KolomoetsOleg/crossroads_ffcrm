@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 # Allows easy switching between locally developed gems, and gems installed from rubygems.org
 # See README for more info at: https://github.com/ndbroadbent/bundler_local_development
