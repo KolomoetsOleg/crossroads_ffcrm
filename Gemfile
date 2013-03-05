@@ -10,6 +10,7 @@ rescue LoadError
 end
 
 gem 'fat_free_crm', :github => 'fatfreecrm/fat_free_crm', :branch => :master
+gem 'rails', '~> 3.2.12' # peg to 3.2
 
 # Allow textile markup in emails and comments
 gem 'RedCloth'
