@@ -105,7 +105,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_calendar.git
-  revision: 06be829c2ea963f33e87c33b0a2fdf80314cc8cf
+  revision: 9b7830b0c8ec228263fa7cdc9d4c1c5574f9d39f
   specs:
     ffcrm_calendar (0.0.2)
       cache_digests (>= 0.2.0)
