@@ -35,7 +35,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 5870e3ab01737de19d70426d328233ae8000c4fd
+  revision: 4191f14a4503cc3fb6fae95aa147c7c24e2cc967
   branch: master
   specs:
     fat_free_crm (0.12.0)
@@ -105,9 +105,9 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_calendar.git
-  revision: bbf48dd96fb9510420e59dbb90e15323955839d9
+  revision: 06be829c2ea963f33e87c33b0a2fdf80314cc8cf
   specs:
-    ffcrm_calendar (0.0.1)
+    ffcrm_calendar (0.0.2)
       cache_digests (>= 0.2.0)
       fat_free_crm
       ri_cal
