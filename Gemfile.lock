@@ -114,7 +114,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: 204661f36618defdc5840e5f4b68a5e8799d7f4b
+  revision: a8462c0e1545e7f75048f6a534c2f4cdda27c222
   specs:
     ffcrm_crossroads (1.0.1)
       cache_digests (>= 0.2.0)
