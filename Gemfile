@@ -12,17 +12,11 @@ end
 gem 'fat_free_crm', :github => 'fatfreecrm/fat_free_crm', :branch => :master
 gem 'rails', '~> 3.2.12' # peg to 3.2
 
-# Allow textile markup in emails and comments
 gem 'RedCloth'
-
-# Uncomment the database that you have configured in config/database.yml
-# ----------------------------------------------------------------------
-# gem 'mysql2', '0.3.10'
-# gem 'sqlite3'
+gem 'ransack_ui', :github => 'ndbroadbent/ransack_ui' # force to use git version
 gem 'pg', '~> 0.13.2'
 
-# Gems used only for assets and not required
-# in production environments by default.
+# Gems used only for assets and not required in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'

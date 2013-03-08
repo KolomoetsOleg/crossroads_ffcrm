@@ -97,6 +97,14 @@ GIT
       nestful
 
 GIT
+  remote: git://github.com/ndbroadbent/ransack_ui.git
+  revision: 37f7264192d802d3283c3bdec69b4cb27c9fc7b3
+  specs:
+    ransack_ui (1.1.0)
+      ransack
+      ransack_chronic (>= 1.1.0)
+
+GIT
   remote: git://github.com/tribalvibes/soap4r-spox.git
   revision: 7e3cb897d7c0f5a0bc47fe6976610348cbd1f80a
   specs:
@@ -347,9 +355,6 @@ GEM
       activerecord (~> 3.0)
       chronic (~> 0.6.7)
       polyamorous (~> 0.5.0)
-    ransack_ui (1.1.0)
-      ransack
-      ransack_chronic (>= 1.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
     responds_to_parent (1.1.0)
@@ -429,6 +434,7 @@ DEPENDENCIES
   pg (~> 0.13.2)
   quiet_assets
   rails (~> 3.2.12)
+  ransack_ui!
   sass-rails (~> 3.2.3)
   soap4r!
   therubyracer
