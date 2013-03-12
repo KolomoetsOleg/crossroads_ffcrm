@@ -59,6 +59,10 @@ group :development, :staging do
   gem 'ffcrm_devise', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
 end
 
+group :development, :integration do
+  gem 'ffcrm_vend', :github => 'crossroads/ffcrm_vend'
+end
+
 group :production do
   gem 'soap4r',            :github => 'tribalvibes/soap4r-spox'
   gem 'crowd-crossroads',  :github => 'crossroads/crowd'
