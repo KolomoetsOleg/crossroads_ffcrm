@@ -35,10 +35,10 @@ GIT
 
 GIT
   remote: git://github.com/crossroads/ffcrm_vend.git
-  revision: 1adb2e862bb44d175f03567fa1522f194093b09b
+  revision: 00c9168e5eaab6fd720e15055e75b1168824ee3c
   specs:
     ffcrm_vend (0.0.1)
-      fat_free_crm (>= 0.12.0)
+      fat_free_crm
       rails (~> 3.2.12)
 
 GIT
