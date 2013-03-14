@@ -69,5 +69,3 @@ group :production do
   gem 'crowd_rails',       :github => 'crossroads/crowd_rails'
   gem 'ffcrm_crowd',       :github => 'fatfreecrm/ffcrm_crowd'
 end
-
-gem 'css_parser', '1.2.6' # bug in next version, peg for now.
