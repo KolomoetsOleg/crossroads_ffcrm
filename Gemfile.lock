@@ -43,7 +43,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 3aadd2037da4e66423a1f4b42614e21ec1678e81
+  revision: 2aa02520a4e59eabffb9fbab259f2ff1fa7e43f1
   branch: master
   specs:
     fat_free_crm (0.12.0)
@@ -130,7 +130,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: 834c649ae09ccaec63867e4fb046165822711247
+  revision: af77c5d87f656335d1d5c142111e7b5c4d80f754
   specs:
     ffcrm_crossroads (1.0.1)
       cache_digests (>= 0.2.0)
@@ -297,7 +297,7 @@ GEM
     net-ssh-gateway (1.1.0)
       net-ssh (>= 1.99.1)
     newrelic_rpm (3.5.4.33)
-    nokogiri (1.5.7)
+    nokogiri (1.5.9)
     omniauth (1.1.2)
       hashie (~> 1.2)
       rack
