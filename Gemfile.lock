@@ -43,7 +43,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 2aa02520a4e59eabffb9fbab259f2ff1fa7e43f1
+  revision: 1466f41d5867c2acfb76a8c0639bda705d3a9ff4
   branch: master
   specs:
     fat_free_crm (0.12.0)
@@ -130,7 +130,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: 703a872eb9260bb465ad317c8440955730c323df
+  revision: 4e858571574a3113b0e12a707b37159cd6fafadd
   specs:
     ffcrm_crossroads (1.0.1)
       cache_digests (>= 0.2.0)
@@ -285,7 +285,7 @@ GEM
       rack-contrib
       rails
     mime-types (1.21)
-    multi_json (1.7.1)
+    multi_json (1.7.2)
     multi_xml (0.5.3)
     nestful (0.0.8)
       activesupport (>= 3.0.0.beta)
