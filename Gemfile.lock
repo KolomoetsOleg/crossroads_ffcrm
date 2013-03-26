@@ -35,7 +35,7 @@ GIT
 
 GIT
   remote: git://github.com/crossroads/ffcrm_vend.git
-  revision: 2603ec5de6630c0d54c30cae37f8095d0aeb1c9b
+  revision: e51460711e3ef84d936a3ee12379dbd6c9f3f428
   specs:
     ffcrm_vend (0.0.1)
       fat_free_crm
@@ -390,7 +390,7 @@ GEM
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
-    thor (0.17.0)
+    thor (0.18.0)
     tilt (1.3.6)
     treetop (1.4.12)
       polyglot
