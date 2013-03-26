@@ -130,7 +130,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: e30baad845a8c63071cb33f62925c12a7328f2d6
+  revision: 584a14efc8e87875308f1c80a043cdfd2103bb1e
   specs:
     ffcrm_crossroads (1.0.1)
       cache_digests (>= 0.2.0)
@@ -350,7 +350,7 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.0.3)
+    rake (10.0.4)
     ransack (0.7.2)
       actionpack (~> 3.0)
       activerecord (~> 3.0)
