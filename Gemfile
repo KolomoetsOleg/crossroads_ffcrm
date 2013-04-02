@@ -48,6 +48,7 @@ gem 'ffcrm_meta_search',   :github => 'crossroads/ffcrm_meta_search'
 gem 'ffcrm_authlogic_api', :github => 'crossroads/ffcrm_authlogic_api'
 gem 'ffcrm_calendar', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_calendar.git'
 gem 'ffcrm_lookup_field', :github => 'fatfreecrm/ffcrm_lookup_field'
+gem 'ffcrm_vend', :github => 'crossroads/ffcrm_vend'
 
 gem 'hoptoad_notifier'
 gem 'whenever', '~> 0.7.0'
@@ -57,10 +58,6 @@ gem 'turbo-sprockets-rails3'
 
 group :development, :staging do
   gem 'ffcrm_devise', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
-end
-
-group :development, :integration do
-  gem 'ffcrm_vend', :github => 'crossroads/ffcrm_vend'
 end
 
 group :production do
