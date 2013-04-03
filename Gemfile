@@ -56,7 +56,7 @@ gem 'crossroads_capistrano', '~> 1.4.3'
 gem 'newrelic_rpm'
 gem 'turbo-sprockets-rails3'
 
-group :development, :staging do
+group :staging do
   gem 'ffcrm_devise', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
 end
 
