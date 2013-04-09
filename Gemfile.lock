@@ -98,6 +98,14 @@ GIT
       fat_free_crm
 
 GIT
+  remote: git://github.com/fatfreecrm/ffcrm_mingle.git
+  revision: de5912b10ef3eae119acf39f27587cb7c79b3c23
+  specs:
+    ffcrm_mingle (1.0.1)
+      fat_free_crm
+      mingle4r
+
+GIT
   remote: git://github.com/fatfreecrm/ffcrm_service_hooks.git
   revision: 6a387d4b1819f53cefe584b77f60965e39feaa36
   specs:
@@ -286,6 +294,8 @@ GEM
       rack-contrib
       rails
     mime-types (1.22)
+    mingle4r (0.5.0)
+      activeresource
     multi_json (1.7.2)
     multi_xml (0.5.3)
     nestful (0.0.8)
@@ -435,6 +445,7 @@ DEPENDENCIES
   ffcrm_lookup_field!
   ffcrm_merge!
   ffcrm_meta_search!
+  ffcrm_mingle!
   ffcrm_service_hooks!
   ffcrm_vend!
   hoptoad_notifier
