@@ -54,9 +54,11 @@ gem 'whenever', '~> 0.7.0'
 gem 'crossroads_capistrano', '~> 1.4.3'
 gem 'newrelic_rpm'
 gem 'turbo-sprockets-rails3'
+gem 'rack-mini-profiler', :group => [:development, :staging]
 
 group :staging do
-  gem 'ffcrm_devise', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
+  gem 'ffcrm_devise',    :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
+  gem 'ffcrm_viewpoint', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_viewpoint.git'
 end
 
 group :production do

@@ -156,6 +156,15 @@ GIT
       omniauth
       omniauth_crowd
 
+GIT
+  remote: git@bitbucket.org:crossroadsIT/ffcrm_viewpoint.git
+  revision: 34ed4a18bc01d7bba3177608298005527a66d17c
+  specs:
+    ffcrm_viewpoint (0.0.1)
+      fat_free_crm
+      rails (~> 3.2.13)
+      viewpoint
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -268,6 +277,7 @@ GEM
       hashie (>= 0.1.3)
       httparty (>= 0.1.0)
     haml (3.1.8)
+    handsoap (1.1.8)
     hashie (1.2.0)
     highline (1.6.15)
     hike (1.2.1)
@@ -280,6 +290,7 @@ GEM
       multi_xml (>= 0.5.2)
     httpclient (2.3.3)
     i18n (0.6.1)
+    icalendar (1.3.0)
     journey (1.0.4)
     jquery-rails (2.1.4)
       railties (>= 3.0, < 5.0)
@@ -340,6 +351,8 @@ GEM
       rack (>= 0.4)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
+    rack-mini-profiler (0.1.26)
+      rack (>= 1.1.3)
     rack-ssl (1.3.3)
       rack
     rack-test (0.6.2)
@@ -377,6 +390,7 @@ GEM
       json (~> 1.4)
     responds_to_parent (1.1.0)
     ri_cal (0.8.8)
+    rubyntlm (0.3.1)
     rvm-capistrano (1.2.7)
       capistrano (>= 2.0.0)
     sass (3.2.7)
@@ -415,6 +429,13 @@ GEM
       multi_json (~> 1.0, >= 1.0.2)
     valium (0.5.0)
       activerecord (>= 3.0.2)
+    viewpoint (0.1.27)
+      handsoap
+      httpclient
+      icalendar (>= 1.1.5)
+      mail (>= 2.2.5)
+      nokogiri
+      rubyntlm
     warden (1.2.1)
       rack (>= 1.0)
     whenever (0.7.3)
@@ -448,11 +469,13 @@ DEPENDENCIES
   ffcrm_mingle!
   ffcrm_service_hooks!
   ffcrm_vend!
+  ffcrm_viewpoint!
   hoptoad_notifier
   meta_request
   newrelic_rpm
   pg (~> 0.13.2)
   quiet_assets
+  rack-mini-profiler
   rails (~> 3.2.12)
   ransack_ui!
   sass-rails (~> 3.2.3)
