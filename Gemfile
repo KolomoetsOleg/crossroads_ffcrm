@@ -9,7 +9,7 @@ begin
 rescue LoadError
 end
 
-gem 'fat_free_crm', :github => 'fatfreecrm/fat_free_crm', :branch => :master
+gem 'fat_free_crm', :github => 'fatfreecrm/fat_free_crm', :branch => :remove_rjs
 gem 'rails', '~> 3.2.12' # peg to 3.2
 
 gem 'RedCloth'

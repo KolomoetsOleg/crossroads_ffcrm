@@ -43,8 +43,8 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: 0e2eced87f19daf74c89987eb91608a089f9306a
-  branch: master
+  revision: ea2ec4f7cb3a3b56df6bb5568a8e1316c2da6f24
+  branch: remove_rjs
   specs:
     fat_free_crm (0.12.0)
       acts-as-taggable-on (~> 2.3.3)
@@ -61,7 +61,7 @@ GIT
       jquery-rails (~> 2.1.4)
       nokogiri
       paper_trail
-      paperclip (~> 2.8.0)
+      paperclip
       premailer
       prototype-rails
       rails (~> 3.2.12)
@@ -98,7 +98,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/ffcrm_mingle.git
-  revision: de5912b10ef3eae119acf39f27587cb7c79b3c23
+  revision: dec81d3f86b3c2de2d4879f9dad8c1d1b9680c7d
   specs:
     ffcrm_mingle (1.0.1)
       fat_free_crm
@@ -106,7 +106,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/ffcrm_service_hooks.git
-  revision: 6a387d4b1819f53cefe584b77f60965e39feaa36
+  revision: 4071337cca685c83ad4b5495b35eb27c48e33be5
   specs:
     ffcrm_service_hooks (1.0.1)
       fat_free_crm
@@ -273,7 +273,7 @@ GEM
     eventmachine (1.0.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    ffaker (1.15.0)
+    ffaker (1.16.0)
     formstack (0.0.1)
       hashie (>= 0.1.3)
       httparty (>= 0.1.0)
@@ -305,7 +305,7 @@ GEM
     meta_request (0.2.0)
       rack-contrib
       rails
-    mime-types (1.22)
+    mime-types (1.23)
     mingle4r (0.5.0)
       activeresource
     multi_json (1.7.2)
@@ -330,10 +330,11 @@ GEM
     paper_trail (2.7.1)
       activerecord (~> 3.0)
       railties (~> 3.0)
-    paperclip (2.8.0)
-      activerecord (>= 2.3.0)
-      activesupport (>= 2.3.2)
-      cocaine (>= 0.0.2)
+    paperclip (3.4.1)
+      activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.0)
       mime-types
     pg (0.13.2)
     polyamorous (0.5.0)
@@ -393,7 +394,7 @@ GEM
     rubyntlm (0.3.1)
     rvm-capistrano (1.2.7)
       capistrano (>= 2.0.0)
-    sass (3.2.7)
+    sass (3.2.8)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
