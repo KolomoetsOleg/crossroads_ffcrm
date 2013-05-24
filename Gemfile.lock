@@ -43,7 +43,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: ea2ec4f7cb3a3b56df6bb5568a8e1316c2da6f24
+  revision: 61b09bc05feed11485ddc163e183cd7f4dfdedee
   branch: remove_rjs
   specs:
     fat_free_crm (0.12.0)
@@ -84,7 +84,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/ffcrm_lookup_field.git
-  revision: a1cd4637e3888d273162b462d902ac5f11556083
+  revision: fabea6140c8358f68cf238540d9903c6b7f547bb
   specs:
     ffcrm_lookup_field (0.0.1)
       rails (~> 3.2.8)
@@ -98,7 +98,7 @@ GIT
 
 GIT
   remote: git://github.com/fatfreecrm/ffcrm_mingle.git
-  revision: dec81d3f86b3c2de2d4879f9dad8c1d1b9680c7d
+  revision: 9f5409b3bddd9568610983246a08e2721fa0a9a0
   specs:
     ffcrm_mingle (1.0.1)
       fat_free_crm
@@ -126,43 +126,6 @@ GIT
   specs:
     soap4r (1.5.8.5)
       httpclient (>= 2.1.1)
-
-GIT
-  remote: git@bitbucket.org:crossroadsIT/ffcrm_calendar.git
-  revision: 9b7830b0c8ec228263fa7cdc9d4c1c5574f9d39f
-  specs:
-    ffcrm_calendar (0.0.2)
-      cache_digests (>= 0.2.0)
-      fat_free_crm
-      ri_cal
-
-GIT
-  remote: git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git
-  revision: cbd9c6bad533417487d8f3285e8fcc1961158406
-  specs:
-    ffcrm_crossroads (1.0.1)
-      cache_digests (>= 0.2.0)
-      fat_free_crm
-      nestful
-
-GIT
-  remote: git@bitbucket.org:crossroadsIT/ffcrm_devise.git
-  revision: 03710df2d4faa4e2dceb59fa51094b1d0510b1f6
-  specs:
-    ffcrm_devise (0.0.1)
-      devise
-      fat_free_crm
-      omniauth
-      omniauth_crowd
-
-GIT
-  remote: git@bitbucket.org:crossroadsIT/ffcrm_viewpoint.git
-  revision: d4bddc23f90d1d21cafebdc77de462ca76101963
-  specs:
-    ffcrm_viewpoint (0.0.1)
-      fat_free_crm
-      rails (~> 3.2.13)
-      viewpoint
 
 GEM
   remote: https://rubygems.org/
@@ -205,23 +168,20 @@ GEM
       railties (~> 3.0)
       thor (~> 0.14)
     arel (3.0.2)
-    atomic (1.1.8)
     authlogic (3.1.0)
       activerecord (>= 3.0.7)
       activerecord (>= 3.0.7)
-    bcrypt-ruby (3.0.1)
-    better_errors (0.3.2)
+    better_errors (0.8.0)
       coderay (>= 1.0.0)
-      erubis (>= 2.7.0)
-    binding_of_caller (0.6.8)
+      erubis (>= 2.6.6)
+    binding_of_caller (0.7.1)
+      debug_inspector (>= 0.0.1)
     builder (3.0.4)
-    bundler_local_development (0.3.0)
+    bundler_local_development (0.4.1)
       bundler
-    cache_digests (0.3.0)
-      actionpack (>= 3.2)
-      thread_safe
-    cancan (1.6.9)
-    capistrano (2.13.5)
+    callsite (0.0.11)
+    cancan (1.6.10)
+    capistrano (2.15.4)
       highline
       net-scp (>= 1.0.0)
       net-sftp (>= 2.0.0)
@@ -238,14 +198,14 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.1)
       climate_control (>= 0.0.3, < 1.0)
-    coderay (1.0.8)
+    coderay (1.0.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.4.0)
+    coffee-script-source (1.6.2)
     columnize (0.3.6)
     crossroads_capistrano (1.4.43)
       capistrano (>= 2.6.0)
@@ -255,78 +215,78 @@ GEM
     css_parser (1.3.4)
       addressable
     daemons (1.1.9)
-    debugger (1.2.1)
+    debug_inspector (0.0.2)
+    debugger (1.5.0)
       columnize (>= 0.3.1)
-      debugger-linecache (~> 1.1.1)
-      debugger-ruby_core_source (~> 1.1.4)
-    debugger-linecache (1.1.2)
-      debugger-ruby_core_source (>= 1.1.1)
-    debugger-ruby_core_source (1.1.4)
-    devise (2.2.3)
-      bcrypt-ruby (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (~> 3.1)
-      warden (~> 1.2.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.0)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.0)
     dynamic_form (1.1.4)
     email_reply_parser_ffcrm (0.5.0)
     erubis (2.7.0)
-    eventmachine (1.0.0)
+    eventmachine (1.0.3)
+    excon (0.22.1)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    ffaker (1.16.0)
+    ffaker (1.16.1)
     formstack (0.0.1)
       hashie (>= 0.1.3)
       httparty (>= 0.1.0)
     haml (3.1.8)
-    handsoap (1.1.8)
-    hashie (1.2.0)
-    highline (1.6.15)
+    hashie (2.0.4)
+    heroku (2.39.3)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.11)
+      excon (~> 0.22.1)
+    highline (1.6.18)
     hike (1.2.2)
     hoptoad_notifier (2.4.11)
       activesupport
       builder
     htmlentities (4.3.1)
-    httparty (0.10.2)
+    httparty (0.11.0)
       multi_json (~> 1.0)
       multi_xml (>= 0.5.2)
     httpclient (2.3.3)
     i18n (0.6.1)
-    icalendar (1.3.0)
     journey (1.0.4)
     jquery-rails (2.1.4)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.7.7)
-    libv8 (3.3.10.4)
+    launchy (2.3.0)
+      addressable (~> 2.3)
+    libv8 (3.11.8.17)
     mail (2.5.3)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    meta_request (0.2.0)
+    meta_request (0.2.5)
+      callsite
       rack-contrib
-      rails
+      railties
     mime-types (1.23)
     mingle4r (0.5.0)
       activeresource
-    multi_json (1.7.2)
+    multi_json (1.7.3)
     multi_xml (0.5.3)
-    nestful (1.0.1)
-    net-scp (1.0.4)
-      net-ssh (>= 1.99.1)
-    net-sftp (2.0.5)
-      net-ssh (>= 2.0.9)
-    net-ssh (2.6.2)
-    net-ssh-gateway (1.1.0)
-      net-ssh (>= 1.99.1)
-    newrelic_rpm (3.5.4.33)
+    mysql2 (0.3.11)
+    nestful (1.0.2)
+    net-scp (1.1.0)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.6.7)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    netrc (0.7.7)
+    newrelic_rpm (3.6.1.88)
     nokogiri (1.5.9)
-    omniauth (1.1.2)
-      hashie (~> 1.2)
-      rack
-    omniauth_crowd (2.1.1)
-      nokogiri (>= 1.4.4)
-      omniauth (~> 1.0)
-    orm_adapter (0.4.0)
     paper_trail (2.7.1)
       activerecord (~> 3.0)
       railties (~> 3.0)
@@ -345,8 +305,8 @@ GEM
       htmlentities (>= 4.0.0)
     prototype-rails (3.2.1)
       rails (~> 3.2)
-    quiet_assets (1.0.1)
-      railties (~> 3.1)
+    quiet_assets (1.0.2)
+      railties (>= 3.1, < 5.0)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -389,10 +349,12 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    ref (1.0.4)
     responds_to_parent (1.1.0)
-    ri_cal (0.8.8)
-    rubyntlm (0.3.1)
-    rvm-capistrano (1.2.7)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.9)
+    rvm-capistrano (1.3.0)
       capistrano (>= 2.0.0)
     sass (3.2.8)
     sass-rails (3.2.6)
@@ -410,16 +372,15 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    therubyracer (0.10.2)
-      libv8 (~> 3.3.10)
-    thin (1.5.0)
+    therubyracer (0.11.4)
+      libv8 (~> 3.11.8.12)
+      ref
+    thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
     thor (0.18.1)
-    thread_safe (0.1.0)
-      atomic
-    tilt (1.3.7)
+    tilt (1.4.0)
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
@@ -427,20 +388,11 @@ GEM
       railties (> 3.2.8, < 4.0.0)
       sprockets (>= 2.0.0)
     tzinfo (0.3.37)
-    uglifier (1.3.0)
+    uglifier (2.0.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
     valium (0.5.0)
       activerecord (>= 3.0.2)
-    viewpoint (0.1.27)
-      handsoap
-      httpclient
-      icalendar (>= 1.1.5)
-      mail (>= 2.2.5)
-      nokogiri
-      rubyntlm
-    warden (1.2.1)
-      rack (>= 1.0)
     whenever (0.7.3)
       activesupport (>= 2.3.4)
       chronic (~> 0.6.3)
@@ -461,20 +413,18 @@ DEPENDENCIES
   debugger
   fat_free_crm!
   ffcrm_authlogic_api!
-  ffcrm_calendar!
-  ffcrm_crossroads!
   ffcrm_crossroads_formstack!
   ffcrm_crowd!
-  ffcrm_devise!
   ffcrm_lookup_field!
   ffcrm_merge!
   ffcrm_meta_search!
   ffcrm_mingle!
   ffcrm_service_hooks!
   ffcrm_vend!
-  ffcrm_viewpoint!
+  heroku
   hoptoad_notifier
   meta_request
+  mysql2
   newrelic_rpm
   pg (~> 0.13.2)
   quiet_assets

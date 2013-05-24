@@ -9,12 +9,15 @@ begin
 rescue LoadError
 end
 
+gem 'heroku'
+
 gem 'fat_free_crm', :github => 'fatfreecrm/fat_free_crm', :branch => :remove_rjs
 gem 'rails', '~> 3.2.12' # peg to 3.2
+gem 'mysql2'
 
 gem 'RedCloth'
 gem 'ransack_ui', :github => 'ndbroadbent/ransack_ui' # force to use git version
-gem 'pg', '~> 0.13.2'
+
 
 # Gems used only for assets and not required in production environments by default.
 group :assets do
@@ -41,11 +44,11 @@ end
 gem 'ffcrm_mingle',        :github => 'fatfreecrm/ffcrm_mingle'
 gem 'ffcrm_merge',         :github => 'fatfreecrm/ffcrm_merge'
 gem 'ffcrm_service_hooks', :github => 'fatfreecrm/ffcrm_service_hooks'
-gem 'ffcrm_crossroads',    :git => 'git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git'
+#gem 'ffcrm_crossroads',    :git => 'git@bitbucket.org:crossroadsIT/ffcrm_crossroads.git'
 gem 'ffcrm_crossroads_formstack', :github => 'crossroads/ffcrm_crossroads_formstack'
 gem 'ffcrm_meta_search',   :github => 'crossroads/ffcrm_meta_search'
 gem 'ffcrm_authlogic_api', :github => 'crossroads/ffcrm_authlogic_api'
-gem 'ffcrm_calendar', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_calendar.git'
+#gem 'ffcrm_calendar', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_calendar.git'
 gem 'ffcrm_lookup_field', :github => 'fatfreecrm/ffcrm_lookup_field'
 gem 'ffcrm_vend', :github => 'crossroads/ffcrm_vend'
 
@@ -56,14 +59,15 @@ gem 'newrelic_rpm'
 gem 'turbo-sprockets-rails3'
 gem 'rack-mini-profiler', :group => [:development, :staging]
 
-group :staging do
-  gem 'ffcrm_devise',    :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
-  gem 'ffcrm_viewpoint', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_viewpoint.git'
-end
+#group :staging do
+#  gem 'ffcrm_devise',    :git => 'git@bitbucket.org:crossroadsIT/ffcrm_devise.git'
+#  gem 'ffcrm_viewpoint', :git => 'git@bitbucket.org:crossroadsIT/ffcrm_viewpoint.git'
+#end
 
 group :production do
   gem 'soap4r',            :github => 'tribalvibes/soap4r-spox'
   gem 'crowd-crossroads',  :github => 'crossroads/crowd'
   gem 'crowd_rails',       :github => 'crossroads/crowd_rails'
   gem 'ffcrm_crowd',       :github => 'fatfreecrm/ffcrm_crowd'
+  gem 'pg', '~> 0.13.2'
 end
