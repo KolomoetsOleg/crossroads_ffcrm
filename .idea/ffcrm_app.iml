@@ -42,15 +42,16 @@
     <orderEntry type="library" scope="PROVIDED" name="css_parser (v1.3.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="daemons (v1.1.9, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="debugger (v1.5.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debugger (v1.6.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debugger-linecache (v1.2.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="debugger-ruby_core_source (v1.2.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debugger-ruby_core_source (v1.2.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dynamic_form (v1.1.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="email_reply_parser_ffcrm (v0.5.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.0.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="excon (v0.22.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fat_free_crm (v0.12.0@61b09b, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fat_free_crm (v@6f8a4d, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffaker (v1.16.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffcrm_authlogic_api (v0.1.0@07255c, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffcrm_crossroads_formstack (v1.0.2@214197, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
@@ -63,8 +64,10 @@
     <orderEntry type="library" scope="PROVIDED" name="ffcrm_vend (v0.0.1@c6a84b, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formstack (v0.0.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v3.1.8, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="hashie (v2.0.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="highline (v1.6.18, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hashie (v2.0.5, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="heroku (v2.39.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="heroku-api (v0.3.11, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="highline (v1.6.19, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hoptoad_notifier (v2.4.11, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="htmlentities (v4.3.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
@@ -72,24 +75,26 @@
     <orderEntry type="library" scope="PROVIDED" name="httpclient (v2.3.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.1.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v1.7.7, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.3.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.11.8.17, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="meta_request (v0.2.5, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mingle4r (v0.5.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.11, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nestful (v1.0.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="net-scp (v1.1.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nestful (v1.0.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-scp (v1.1.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-sftp (v2.1.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-ssh (v2.6.7, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-ssh-gateway (v1.2.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="newrelic_rpm (v3.6.1.88, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.7.7, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="newrelic_rpm (v3.6.2.96, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.5.9, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="paper_trail (v2.7.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="paperclip (v3.4.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="paper_trail (v2.7.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="paperclip (v3.4.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v0.13.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyamorous (v0.5.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
@@ -111,23 +116,25 @@
     <orderEntry type="library" scope="PROVIDED" name="ransack_ffcrm (v0.7.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ransack_ui (v1.1.0@37f726, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.5, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responds_to_parent (v1.1.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.6.7, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.9, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rvm-capistrano (v1.3.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.8, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="select2-rails (v3.3.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="select2-rails (v3.3.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v2.0.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="soap4r (v1.5.8.5@7e3cb8, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.11.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thin (v1.5.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.18.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbo-sprockets-rails3 (v0.3.6, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.37, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.0.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.1, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="valium (v0.5.0, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="whenever (v0.7.3, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.4, RVM: ruby-1.9.3-p385 [mysql2]) [gem]" level="application" />
